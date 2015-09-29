@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Plane Game</title>
+</head>
+
+<style>
+
+.im1{
+	position: absolute;
+	z-index: 1;
+	height: 40px;
+	width: 100px;
+	top:48%;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 1000% 0; }
+}
+#animate-area	{ 
+	width: 800px; 
+	height: 450px; 
+	position: relative;
+	left: 283px;
+	background-image: url("bkgd.jpg");
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 25s linear infinite;
+}
+
+div .arrow {
+	position: relative;
+	
+}
+
+.main div{
+	display:none;
+}
+.main div:target{
+	display:block;
+}
+
+</style>
+
+
+
+<body align=center>
+	<h1 align=center><font color="Black" border-color="Red"> Plane Game </font></h1>
+	<br/><br/>
+	<div id="animate-area"> 
+		<img class="im1" src="jet.png"  top=48% left=49%/>
+	</div>
+	
+	<div class="main">
+		<div id="up1">
+			<img class="im1" src="jet.png"  top=47% left=49%/>
+		</div>
+		<div id="down1">
+			<img class="im1" src="jet.png"  top=49% left=49%/>
+		</div>
+	</div>
+	<div class="arrow">
+	<a href="#up1""><img src="uparrow.png" height=40px width=75px/></a>
+	<br/>
+	<a href="#down1"><img src="dwarrow.png" height=40px width=75px/></a>
+	</div>
+	
+</body>
+
+</html>

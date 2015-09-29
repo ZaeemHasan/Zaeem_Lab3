@@ -1,0 +1,8 @@
+Lab 3
+Name: Zaeem
+Reg #: 5776
+
+In this lab only thing I did new was using animation tags. And I learned it from :
+http://davidwalsh.name/background-animation-css
+
+Github link:
